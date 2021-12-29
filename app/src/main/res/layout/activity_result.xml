@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:fontFamily="@font/fredroka_one_regular"
+        android:gravity="center"
+        android:id="@+id/results"
+        android:text="Results"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_below="@+id/results"
+        android:layout_marginTop="80dp"
+        android:fontFamily="@font/fredroka_one_regular"
+        android:gravity="center"
+        android:text="Name : "
+        android:layout_marginLeft="30dp"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:id="@+id/nameText"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@id/results"
+        android:layout_marginTop="80dp"
+        android:layout_toRightOf="@+id/name"
+        android:fontFamily="@font/fredroka_one_regular"
+        android:gravity="center"
+        android:textColor="@color/blue"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/pointsText"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@id/nameText"
+        android:layout_toRightOf="@+id/points"
+        android:fontFamily="@font/fredroka_one_regular"
+        android:gravity="center"
+        android:textColor="@color/light_green"
+        android:textSize="30sp" />
+
+
+    <TextView
+        android:id="@+id/points"
+        android:layout_marginLeft="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:layout_below="@+id/name"
+        android:fontFamily="@font/fredroka_one_regular"
+        android:textSize="30sp"
+        android:text="Points :"/>
+
+
+
+</RelativeLayout>

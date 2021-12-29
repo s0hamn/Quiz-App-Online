@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/soham/AndroidStudioProjects/QuizApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.21822916666666667" />
+        <entry key="..\:/Users/soham/AndroidStudioProjects/QuizApp/app/src/main/res/drawable/et_border.xml" value="0.21822916666666667" />
+        <entry key="..\:/Users/soham/AndroidStudioProjects/QuizApp/app/src/main/res/drawable/tv_rounded_blue.xml" value="0.264" />
+        <entry key="..\:/Users/soham/AndroidStudioProjects/QuizApp/app/src/main/res/drawable/tv_rounded_green.xml" value="0.1" />
+        <entry key="..\:/Users/soham/AndroidStudioProjects/QuizApp/app/src/main/res/drawable/tv_rounded_red.xml" value="0.1" />
+        <entry key="..\:/Users/soham/AndroidStudioProjects/QuizApp/app/src/main/res/drawable/tv_rounded_yellow.xml" value="0.1" />
+        <entry key="..\:/Users/soham/AndroidStudioProjects/QuizApp/app/src/main/res/layout/activity_add_question.xml" value="0.264" />
+        <entry key="..\:/Users/soham/AndroidStudioProjects/QuizApp/app/src/main/res/layout/activity_attempt_quiz.xml" value="0.264" />
+        <entry key="..\:/Users/soham/AndroidStudioProjects/QuizApp/app/src/main/res/layout/activity_attempter_name.xml" value="0.2" />
+        <entry key="..\:/Users/soham/AndroidStudioProjects/QuizApp/app/src/main/res/layout/activity_edit_quiz.xml" value="0.19791666666666666" />
+        <entry key="..\:/Users/soham/AndroidStudioProjects/QuizApp/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/soham/AndroidStudioProjects/QuizApp/app/src/main/res/layout/activity_quiz.xml" value="0.2" />
+        <entry key="..\:/Users/soham/AndroidStudioProjects/QuizApp/app/src/main/res/layout/activity_result.xml" value="0.19791666666666666" />
+        <entry key="..\:/Users/soham/AndroidStudioProjects/QuizApp/app/src/main/res/layout/activity_set_quiz_password.xml" value="0.19791666666666666" />
+        <entry key="..\:/Users/soham/AndroidStudioProjects/QuizApp/app/src/main/res/layout/attempt_question_item.xml" value="0.4" />
+        <entry key="..\:/Users/soham/AndroidStudioProjects/QuizApp/app/src/main/res/layout/question_item.xml" value="0.4774951076320939" />
+        <entry key="..\:/Users/soham/AndroidStudioProjects/QuizApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher_2.xml" value="0.1" />
+        <entry key="..\:/Users/soham/AndroidStudioProjects/QuizApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher_hdpi.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

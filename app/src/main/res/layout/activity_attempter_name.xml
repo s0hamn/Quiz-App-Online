@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AttempterNameActivity">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:text="What is your NAME?"
+        android:fontFamily="@font/fredroka_one_regular"
+        android:textSize="35sp"
+        android:gravity="center"
+        android:layout_marginTop="100dp"/>
+
+    <EditText
+        android:id="@+id/attempterNameEt"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:fontFamily="@font/fredroka_one_regular"
+        android:layout_below="@+id/name"
+        android:layout_margin="16dp"
+        android:background="@drawable/et_border"
+        android:layout_marginTop="32dp"
+        android:hint="Enter your NAME"
+        android:textSize="30sp"
+        android:padding="12dp"
+        android:textColor="@color/blue"
+        />
+
+    <androidx.cardview.widget.CardView
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/attempterNameEt"
+        android:id="@+id/enterNameCardView"
+        android:layout_width="230dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="8dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/fredroka_one_regular"
+            android:gravity="center"
+            android:text="Attempt Quiz"
+            android:textColor="@color/light_green"
+            android:textSize="30sp" />
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</RelativeLayout>

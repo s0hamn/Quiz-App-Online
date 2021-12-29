@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddQuestionActivity">
+
+    <TextView
+        android:id="@+id/addQuestionsText"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Add Questions"
+        android:fontFamily="@font/fredroka_one_regular"
+        android:gravity="center"
+        android:textSize="40sp"/>
+
+    <TextView
+        android:id="@+id/quizIDText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/addQuestionsText"
+        android:textColor="@color/light_green"
+        android:fontFamily="@font/fredroka_one_regular"
+        android:gravity="center"
+        android:text="quizID" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="580dp"
+        android:layout_below="@+id/quizIDText">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/questionCardView"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="10dp">
+
+                <EditText
+                    android:id="@+id/questionEt"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="12dp"
+                    android:background="@null"
+                    android:fontFamily="@font/fredroka_one_regular"
+                    android:gravity="top"
+                    android:hint="Add your question here"
+                    android:textColor="@color/blue" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/enterOptionsCardView"
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/enterOptions"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="12dp"
+                        android:fontFamily="@font/fredroka_one_regular"
+                        android:text="Enter your OPTIONS: " />
+
+                    <EditText
+                        android:id="@+id/optionAEt"
+                        android:layout_width="match_parent"
+                        android:layout_height="42dp"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginEnd="12dp"
+                        android:fontFamily="@font/fredroka_one_regular"
+                        android:hint="Option A"
+                        android:textColor="@color/blue" />
+
+                    <EditText
+                        android:id="@+id/optionBEt"
+                        android:layout_width="match_parent"
+                        android:layout_height="42dp"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginEnd="12dp"
+                        android:fontFamily="@font/fredroka_one_regular"
+                        android:hint="Option B"
+                        android:textColor="@color/light_green" />
+
+                    <EditText
+                        android:id="@+id/optionCEt"
+                        android:layout_width="match_parent"
+                        android:layout_height="42dp"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginEnd="12dp"
+                        android:fontFamily="@font/fredroka_one_regular"
+                        android:hint="Option C"
+                        android:textColor="@color/yellow" />
+
+                    <EditText
+                        android:id="@+id/optionDEt"
+                        android:layout_width="match_parent"
+                        android:layout_height="42dp"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginEnd="12dp"
+                        android:fontFamily="@font/fredroka_one_regular"
+                        android:hint="Option D"
+                        android:textColor="@color/red" />
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="12dp"
+                android:layout_marginTop="12dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="10dp">
+
+                <EditText
+                    android:id="@+id/correctOptionEt"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginEnd="12dp"
+                    android:fontFamily="@font/fredroka_one_regular"
+                    android:hint="Enter CORRECT Option value "
+                    android:textColor="@color/light_green" />
+
+
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/saveQuestionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="24dp"
+        android:src="@drawable/ic_baseline_save_24" />
+
+
+</RelativeLayout>
