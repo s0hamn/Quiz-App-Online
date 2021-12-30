@@ -23,7 +23,7 @@ Install this app with the link given below.
 [Drive Link](https://drive.google.com/file/d/1Jn9EInb3MGCX_6_uDydlK0tPPW9ev9pb/view?usp=sharing)
 
 
-- If your drive is not allowed to install apps from unknow sources eanble it in the settings.
+- If your drive is not allowed to install apps from unknown sources, enable it in the settings.
 - After downloading the app you can create a Quiz.
 - If you want to attempt a demo quiz you can enter "INDIA Quiz" as the Quiz ID.
 - Thanks for installing the app :)
