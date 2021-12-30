@@ -1,7 +1,7 @@
 # Quiz App Online
 
 ## Description
-Quiz App is an Online quiz maker app which can be used to create effective quizzes by teachers.
+Quiz App is an Online quiz maker app that can be used to create effective quizzes by teachers.
 - This app uses Firebase Firestore to store the data of the Quizzes provided.
 
 
