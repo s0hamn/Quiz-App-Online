@@ -21,7 +21,7 @@ Quiz App is an Online quiz maker app which can be used to create effective quizz
 Install this app with the link given below.
 
 ```bash
-https://drive.google.com/file/d/1Jn9EInb3MGCX_6_uDydlK0tPPW9ev9pb/view?usp=sharing
+[Link to Google](https://drive.google.com/file/d/1Jn9EInb3MGCX_6_uDydlK0tPPW9ev9pb/view?usp=sharing)
 ```
 
 - If your drive is not allowed to install apps from unknow sources eanble it in the settings.
